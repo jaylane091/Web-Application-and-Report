@@ -1,5 +1,5 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap'); 
-{
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,15 +7,15 @@
 }
 .max-width{
     max-width: 1300px;
-    padding: 0 80px;
+    padding: 0 40px;
     margin: auto;
 }
 /* navbar styling */
 .navbar{
     position: fixed;
     width: 100%;
-    padding: 15px 0;
-    background: crimson;
+    padding: 30px 0;
+    /* background: crimson; */
     font-family: 'Ubuntu', sans-serif;
 }
 .navbar .max-width{
@@ -34,5 +34,38 @@
 }
 .navbar .menu li a{
     color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+}
 
-    }
+/* home section styling */
+.home {
+    display: flex;
+    background: url("imagesforweb/luke-berliner-tyrs-temple-lb-03.jpg") no-repeat center;
+    height: 100vh;
+    color: white;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+}
+.home .max-width{
+    margin: auto 0 auto 100px;
+}
+.home .home-content .text-1{
+    font-size: 27px;
+}
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+}
+.home .home-content .text-3 span{
+    color: crimson;
+    font-weight: 500;
+}
