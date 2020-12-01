@@ -67,7 +67,7 @@
 }
 
 /* home section styling */
-.home {
+.home{
     display: flex;
     background: url("imagesforweb/luke-berliner-tyrs-temple-lb-03.jpg") no-repeat center;
     height: 100vh;
@@ -148,14 +148,15 @@ section .title::after{
 }
 
 /* about section styling */
-.about, .services{
+.about, .services, .work{
     font-family: 'Poppins', sans-serif;
 }
 .about .title::after{
     content: "Who I am"
 }
 .about .about-content,
-.services .serv-content{
+.services .serv-content,
+.work .work-content{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -245,8 +246,30 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 
-
-
+/* work section styling */
+.work .title::after{
+    content: "Concepts"
+}
+.work .workBx img{
+    width: 100%;
+    border-radius: 6px;
+}
+.work .work-content a{
+    display: inline-block;
+    background: crimson;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.work .work-content a:hover{
+    color: crimson;
+    background: none;
+}
 
 
 /* responsive media query start */
