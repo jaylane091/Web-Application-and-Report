@@ -385,7 +385,14 @@ section .title::after{
     color: crimson;
     background: none;
 }
-
+.main{
+    min-height: 100%;
+    background: #000000;
+}
+.main1{
+    min-height: 100%;
+    background: #000000;
+}
 /* footer section styling*/
 footer{
     background: #000000;
