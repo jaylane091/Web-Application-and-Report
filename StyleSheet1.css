@@ -135,7 +135,6 @@ section .title::before{
     background: #000000;
     transform: translateX(-50%);
 }
-
 section .title::after{
     position: absolute;
     bottom: -13px;
@@ -148,7 +147,7 @@ section .title::after{
 }
 
 /* about section styling */
-.about, .services, .work, .contact{
+.about, .services, .work, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .title::after{
@@ -346,7 +345,7 @@ section .title::after{
     font-size: 17px;
     font-family: 'Poppins', sans-serif;
 }
-.contact .right form .textarea textarea {
+.contact .right form .textarea textarea{
     padding-top: 10px;
     resize: none;
 }
@@ -371,10 +370,19 @@ section .title::after{
     background: none;
 }
 
-
-
-
-
+/* footer section styling*/
+footer{
+    background: #000000;
+    padding: 20px 23px;
+    color: white;
+}
+footer span a{
+    color: crimson;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
 
 /* responsive media query start */
 @media (max-width: 1300px){
