@@ -150,8 +150,16 @@ section .title::after{
 .about, .services, .work, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
+.about{
+    color: white;
+    background: #000000;
+}
+.about .title::before{
+    background: #ffffff;
+}
 .about .title::after{
-    content: "Who I am"
+    background: #000000;
+    content: "Who I am";
 }
 .about .about-content,
 .services .serv-content,
@@ -247,8 +255,16 @@ section .title::after{
 }
 
 /* work section styling */
+.work{
+    color: white;
+    background: #000000;
+}
+.work .title::before{
+    background: #ffffff;
+}
 .work .title::after{
-    content: "Concepts"
+    background: #000000;
+    content: "Concepts";
 }
 .work .workBx img{
     width: 100%;
