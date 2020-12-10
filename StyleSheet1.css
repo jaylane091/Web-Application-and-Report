@@ -148,7 +148,7 @@ section .title::after{
 }
 
 /* about section styling */
-.about, .services, .work{
+.about, .services, .work, .contact{
     font-family: 'Poppins', sans-serif;
 }
 .about .title::after{
@@ -156,7 +156,8 @@ section .title::after{
 }
 .about .about-content,
 .services .serv-content,
-.work .work-content{
+.work .work-content,
+.contact .contact-content{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -271,6 +272,37 @@ section .title::after{
     background: none;
 }
 
+/* contact section styling */
+.contact{
+    color: white;
+    background: #000000;
+}
+.contact .title::before{
+    background: #ffffff;
+}
+.contact .title::after{
+    background: #000000;
+    content: "Get in touch";
+}
+.contact .contact-content .column{
+    width: calc(50% - 30px);
+}
+.contact .contact-content .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.contact .contact-content .left p{
+    text-align: justify;
+}
+.contact .contact-content .left .icons{
+    margin: 10px 0;
+}
+.contact .contact-content .row{
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
 
 /* responsive media query start */
 @media (max-width: 1300px){
