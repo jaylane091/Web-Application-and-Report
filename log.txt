@@ -1,0 +1,107 @@
+commit 70873bb396e1ab1de94e006f45d0018c3bf69c4e
+Author: Wabooski9 <jacoblane02@gmail.com>
+Date:   Sun Dec 13 19:55:12 2020 +0000
+
+    added report file
+
+commit fd0d1664d5a33148a26839566745ed45ccd3e600
+Author: Wabooski9 <jacoblane02@gmail.com>
+Date:   Thu Dec 10 23:53:17 2020 +0000
+
+    fixed all, opens good, final version prior to later checks, all links to seperate pages work
+
+commit 6d5e9d22ab468b3af79f53b89c0c8654b61e376d
+Author: Wabooski9 <jacoblane02@gmail.com>
+Date:   Thu Dec 10 23:21:47 2020 +0000
+
+    complete overhaul, added different pages rather than it all being on one, navigable via the menubar - something broken when opening straight from visual studio in terms of background colour and text, works fine when opened from folder
+
+commit 71151af8e8fd56e23f242959ecca90d3dd8aa265
+Author: Wabooski9 <jacoblane02@gmail.com>
+Date:   Thu Dec 10 21:19:22 2020 +0000
+
+    fixed text in contact section to be more relevant
+
+commit a63f3c82e360e549f20667392603b77334604888
+Author: Wabooski9 <jacoblane02@gmail.com>
+Date:   Thu Dec 10 19:24:56 2020 +0000
+
+    all done :) footer complete, navbar shortcuts now operable
+
+commit cbb79fb7eacea638ea667a0d0106a46532d28f76
+Author: Wabooski9 <jacoblane02@gmail.com>
+Date:   Thu Dec 10 18:54:46 2020 +0000
+
+    finished contact section, text boxes done, starting footer
+
+commit bbb7ab30bef89dbb53e02ec23f703b461f962c70
+Author: Wabooski9 <jacoblane02@gmail.com>
+Date:   Thu Dec 10 17:44:28 2020 +0000
+
+    added contact section, text wrapped to side, colour scheme kept consistent - need to add dynamic text input
+
+commit ef4746e14157039d4a35b486dbc3cf8b8926f65f
+Author: Wabooski9 <jacoblane02@gmail.com>
+Date:   Tue Dec 1 19:17:16 2020 +0000
+
+    finished work section with dynamic view more button
+
+commit 75d70b642cc2124836eac0de408d1b454fb9c00c
+Author: Wabooski9 <jacoblane02@gmail.com>
+Date:   Tue Dec 1 18:24:47 2020 +0000
+
+    finished my services page with dynamic info boxes
+
+commit 25a471a310630a4ee89a5fa5290672ab1e2de259
+Author: Wabooski9 <jacoblane02@gmail.com>
+Date:   Tue Dec 1 17:22:37 2020 +0000
+
+    finsihed about page with device support, starting services page
+
+commit 61b807243dd9b1a8ad679dcc3ce98002481cbcac
+Author: Wabooski9 <jacoblane02@gmail.com>
+Date:   Tue Dec 1 15:44:08 2020 +0000
+
+    added text wrap and download button for CV
+
+commit 3cbe16750488548bbe084b576f1c79dfa62f14f4
+Author: Wabooski9 <jacoblane02@gmail.com>
+Date:   Tue Dec 1 14:35:49 2020 +0000
+
+    added about page with picture and text styling - need to configure for firefox
+
+commit 3f59b2c0db2e9558e0e355c7856fa6d017b19082
+Author: Wabooski9 <jacoblane02@gmail.com>
+Date:   Mon Nov 30 22:56:51 2020 +0000
+
+    added device support, collapsable menu bar and hire me button, all dynamic with colour changes
+
+commit f0f5e5420b84b851c293d4c0aa87652ac0563dda
+Author: Wabooski9 <jacoblane02@gmail.com>
+Date:   Mon Nov 30 21:51:52 2020 +0000
+
+    added colour fade on menu bar and dynamic page chance for smaller devices
+
+commit e99d440cced3372f4160e10d61c86071467a18e6
+Author: Wabooski9 <jacoblane02@gmail.com>
+Date:   Mon Nov 30 20:13:53 2020 +0000
+
+    added background for home page plus text
+
+commit 354cf07ddf24df3b42e9ac7e793aae26fe638bf9
+Author: Wabooski9 <jacoblane02@gmail.com>
+Date:   Mon Nov 30 18:25:23 2020 +0000
+
+    added top menu bar with styles and links
+
+commit d36a80ecaa47f5c05a19c2e77d11dd0037121c5e
+Author: Wabooski9 <jacoblane02@gmail.com>
+Date:   Mon Nov 30 16:59:59 2020 +0000
+
+    added files for each language, created title and navigation links
+
+commit f9f022c3b29ecd98bac80f7999a03e66dcc1527f
+Author: jaylane091 <74879813+jaylane091@users.noreply.github.com>
+Date:   Sun Nov 22 21:58:38 2020 +0000
+
+    Initial commit
